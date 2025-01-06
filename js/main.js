@@ -55,12 +55,12 @@
 
       if (computedStyle.display === 'none') {
         brand.style.display = 'block';
-        openBtnChildren[0].style.backgroundImage = "url('.../img/arrow-unvisible.svg')"
+        openBtnChildren[0].style.backgroundImage = "url('../img/arrow-unvisible.svg')"
         openBtnChildren[1].textContent = 'Скрыть';
         btnOpenBrands.style.width = '90px';
       } else if (computedStyle.display === 'block') {
         brand.style.display = 'none';
-        openBtnChildren[0].style.backgroundImage = "url('.../img/arrow-visible.svg')"
+        openBtnChildren[0].style.backgroundImage = "url('../img/arrow-visible.svg')"
         openBtnChildren[1].textContent = 'Показать всё';
         btnOpenBrands.style.width = '134px';
       }
